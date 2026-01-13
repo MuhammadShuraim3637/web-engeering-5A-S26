@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .center {
+        text-align: center;
+        }
+        
+        body {
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+    </style>
+
+</head>
+<body>
+   <div class="container">
+    <table>
+           <table border="1">
+    <tr>
+        <td><b>Name</b></td>
+        <td><input type="text" placeholder="Enter Name"></td>
+    </tr>
+    <tr>
+        <td><b>Email</b></td>
+        <td><input type="email" placeholder="Enter Email"></td>
+    </tr>
+    <tr>
+        <td><b>Mobile Number</b></td>
+        <td><input type="text" placeholder="Enter Mobile Number"></td>
+    </tr>
+    <tr>
+        <td><b>Arrival Date</b></td>
+        <td><input type="date"></td>
+    </tr>
+    <tr>
+        <td><b>Room Type</b></td>
+        <td>
+            <input type="radio" name="room"> Single
+            <input type="radio" name="room"> Double
+            <input type="radio" name="room"> Presidential Suite
+        </td>
+    </tr>
+    <tr>
+        <td><b>Preferences</b></td>
+        <td>
+            <input type="checkbox"> Non Smoking
+            <input type="checkbox"> Internet
+            <input type="checkbox"> Firm Mattress
+        </td>
+    </tr>
+    <tr>
+        <td><b>Mode of payment</b></td>
+        <td>
+            <select>
+                <option>Select</option>
+                <option>Cash</option>
+                <option>Credit Card</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" class="center">
+            <input type="submit" value="Submit">
+        </td>
+    </tr>
+</table>
+
+
+</div>
+</body>
+</html>

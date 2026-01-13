@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Task 2 Layout</title>
+
+<style>
+
+body {
+    margin: 0;
+}
+
+.outer-wrapper {
+    background: red;
+    padding: 0 100px;
+    height: 100vh;
+}
+
+.main {
+   
+    background: white;
+  
+   
+}
+
+.header {
+    height: 150px;
+    background: #4fb3b3;
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    padding-bottom: 0;
+    display: flex;
+}
+
+.logo {
+    width: 200px;
+    background: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.banner {
+    flex: 1;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.navbar {
+    background: black;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    height: 350px;
+}
+
+.left {
+    width: 30%;
+    background: green;
+    color: white;
+    padding: 10px;
+}
+
+.right {
+    width: 70%;
+    background: orange;
+    color: white;
+    padding: 10px;
+}
+
+.footer {
+    background: blue;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    height: 137px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="outer-wrapper">
+    <div class="main">
+
+        <div class="header">
+            <div class="logo">shopp.my</div>
+            <div class="banner">ONLINE SHOPPING</div>
+        </div>
+
+        <div class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Products</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+      
+        <div class="content">
+            <div class="left">left</div>
+            <div class="right">right</div>
+        </div>
+
+        <div class="footer">Footer Section</div>
+
+    </div>
+</div>
+
+</body>
+</html>
